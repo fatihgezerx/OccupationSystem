@@ -1,0 +1,17 @@
+/* Exact gold accent (#FFB224) of Occupation System. The selectors repeat the kit's accent-preset selectors on purpose: a
+   single ".vn-root" rule has lower specificity than ".vn-root.vn-accent--amber" and would lose to it. */
+.vn-root,
+.vn-root.vn-accent--amber {
+    --vn-accent: #FFB224;
+    --vn-accent-soft: rgba(255, 178, 36, 0.16);
+    --vn-accent-line: rgba(255, 178, 36, 0.55);
+    --vn-pressed: rgba(255, 178, 36, 0.24);
+}
+
+.vn-root.vn-root--light,
+.vn-root.vn-root--light.vn-accent--amber {
+    --vn-accent: #B87A00;
+    --vn-accent-soft: rgba(184, 122, 0, 0.14);
+    --vn-accent-line: rgba(184, 122, 0, 0.60);
+    --vn-pressed: rgba(184, 122, 0, 0.22);
+}

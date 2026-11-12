@@ -1,0 +1,22 @@
+{
+    "name": "OccupationSystem.Runtime",
+    "rootNamespace": "OccupationSystem",
+    "references": [
+        "EventSystem.Runtime",
+        "UniTask",
+        "AnimationProfileSystem.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_EVENT_SYSTEM",
+        "HAS_UNITASK",
+        "HAS_ANIMATION_PROFILE_SYSTEM"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
